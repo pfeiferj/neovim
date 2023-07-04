@@ -519,6 +519,7 @@ local extension = {
   end,
   htt = 'httest',
   htb = 'httest',
+  hurl = 'hurl',
   hw = function(path, bufnr)
     return require('vim.filetype.detect').hw(bufnr)
   end,
